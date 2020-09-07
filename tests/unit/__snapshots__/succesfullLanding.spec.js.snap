@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuccessfullLanding Component renders the SuccessfullLanding 1`] = `
+<el-checkbox-group size="small" text-color="#000000" fill="#5daf34">
+  <el-checkbox-button label="TRUE">TRUE</el-checkbox-button>
+  <el-checkbox-button label="FALSE">FALSE</el-checkbox-button>
+</el-checkbox-group>
+`;

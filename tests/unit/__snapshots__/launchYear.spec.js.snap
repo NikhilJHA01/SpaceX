@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Years Component renders the Layout Year 1`] = `
+<el-checkbox-group size="small" text-color="#000000" fill="#5daf34">
+  <el-checkbox-button label="2006">2006</el-checkbox-button>
+  <el-checkbox-button label="2007">2007</el-checkbox-button>
+  <el-checkbox-button label="2008">2008</el-checkbox-button>
+  <el-checkbox-button label="2009">2009</el-checkbox-button>
+  <el-checkbox-button label="2010">2010</el-checkbox-button>
+  <el-checkbox-button label="2011">2011</el-checkbox-button>
+  <el-checkbox-button label="2012">2012</el-checkbox-button>
+  <el-checkbox-button label="2013">2013</el-checkbox-button>
+  <el-checkbox-button label="2014">2014</el-checkbox-button>
+  <el-checkbox-button label="2015">2015</el-checkbox-button>
+  <el-checkbox-button label="2016">2016</el-checkbox-button>
+  <el-checkbox-button label="2017">2017</el-checkbox-button>
+  <el-checkbox-button label="2018">2018</el-checkbox-button>
+  <el-checkbox-button label="2019">2019</el-checkbox-button>
+  <el-checkbox-button label="2020">2020</el-checkbox-button>
+</el-checkbox-group>
+`;
+
+exports[`Layout Years Component renders the Layout Year Card 1`] = `
+<el-checkbox-group size="small" text-color="#000000" fill="#5daf34">
+  <el-checkbox-button label="2006">2006</el-checkbox-button>
+  <el-checkbox-button label="2007">2007</el-checkbox-button>
+  <el-checkbox-button label="2008">2008</el-checkbox-button>
+  <el-checkbox-button label="2009">2009</el-checkbox-button>
+  <el-checkbox-button label="2010">2010</el-checkbox-button>
+  <el-checkbox-button label="2011">2011</el-checkbox-button>
+  <el-checkbox-button label="2012">2012</el-checkbox-button>
+  <el-checkbox-button label="2013">2013</el-checkbox-button>
+  <el-checkbox-button label="2014">2014</el-checkbox-button>
+  <el-checkbox-button label="2015">2015</el-checkbox-button>
+  <el-checkbox-button label="2016">2016</el-checkbox-button>
+  <el-checkbox-button label="2017">2017</el-checkbox-button>
+  <el-checkbox-button label="2018">2018</el-checkbox-button>
+  <el-checkbox-button label="2019">2019</el-checkbox-button>
+  <el-checkbox-button label="2020">2020</el-checkbox-button>
+</el-checkbox-group>
+`;

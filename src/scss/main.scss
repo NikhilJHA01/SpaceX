@@ -1,0 +1,41 @@
+@import "./base";
+@import "./mixins";
+@import "./variables";
+
+// Globally used classes
+
+// Loader Custom Styles
+.el-loading-spinner {
+  position: fixed !important;
+  i {
+    font-size: 100px;
+  }
+  .el-loading-text {
+    font-size: 20px;
+  }
+}
+
+// CheckBox group Custom Styles
+.el-checkbox-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  justify-items: center;
+}
+span.el-checkbox-button__inner {
+  border: 1px solid #a2e8a2 !important;
+  background-color: #a2e8a2;
+  border-radius: 2px;
+  box-shadow: rgb(93, 175, 52) 1px 0px 0px 0px;
+  &:hover {
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.el-checkbox-button.is-checked .el-checkbox-button__inner {
+  background-color: #5daf34;
+  border-radius: 2px;
+  box-shadow: #5daf34 1px 0px 0px 0px;
+  border: 1px solid #5daf34 !important;
+}

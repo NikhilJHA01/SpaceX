@@ -1,0 +1,35 @@
+@mixin tablet() {
+  @media (max-width: 1024px) and (min-width: 701px) {
+    @content;
+  }
+}
+@mixin dektop() {
+  @media (max-width: 1440px) and (min-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin XtraLargeDektop() {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin LargerThanPhone() {
+  @media (min-width: 701px) {
+    @content;
+  }
+}
+
+//Default Placeholders
+%default-card-body {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+%default-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
